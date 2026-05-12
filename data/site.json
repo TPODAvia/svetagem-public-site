@@ -1,0 +1,13 @@
+{
+  "shopName": "Svetagem",
+  "contactEmail": "vmd000200000088@gmail.com",
+  "formEndpoint": "vmd000200000088@gmail.com",
+  "publicBaseUrl": "https://TPODAvia.github.io/svetagem-public-site/",
+  "mailProvider": "gmail",
+  "defaultLanguage": "en",
+  "supportedLanguages": [
+    "en",
+    "ru",
+    "vi"
+  ]
+}

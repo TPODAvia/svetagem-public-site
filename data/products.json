@@ -1,0 +1,198 @@
+[
+  {
+    "id": "set-001",
+    "name": "Pearl Gift Set",
+    "category": "Sets",
+    "price": 189,
+    "currency": "EUR",
+    "image": "assets/products/sets/placeholder-product.svg",
+    "images": [
+      "assets/products/sets/placeholder-product.svg"
+    ],
+    "description": "Elegant matching jewelry set for a gift.",
+    "tags": [
+      "set",
+      "pearl",
+      "gift"
+    ],
+    "translations": {
+      "en": {
+        "name": "Pearl Gift Set",
+        "category": "Sets",
+        "description": "Elegant matching jewelry set for a gift.",
+        "tags": [
+          "set",
+          "pearl",
+          "gift"
+        ]
+      },
+      "ru": {
+        "name": "Подарочный набор с жемчугом",
+        "category": "Наборы",
+        "description": "Элегантный комплект украшений для подарка.",
+        "tags": [
+          "набор",
+          "жемчуг",
+          "подарок"
+        ]
+      },
+      "vi": {
+        "name": "Bộ quà tặng ngọc trai",
+        "category": "Bộ trang sức",
+        "description": "Bộ trang sức đồng bộ thanh lịch để làm quà.",
+        "tags": [
+          "bộ",
+          "ngọc trai",
+          "quà tặng"
+        ]
+      }
+    },
+    "status": "available"
+  },
+  {
+    "id": "ring-001",
+    "name": "Moonstone Silver Ring",
+    "category": "Rings",
+    "price": 89,
+    "currency": "EUR",
+    "image": "assets/products/rings/placeholder-ring.svg",
+    "images": [
+      "assets/products/rings/placeholder-ring.svg"
+    ],
+    "description": "Elegant silver ring with moonstone-inspired shine.",
+    "tags": [
+      "silver",
+      "ring",
+      "moonstone"
+    ],
+    "translations": {
+      "en": {
+        "name": "Moonstone Silver Ring",
+        "category": "Rings",
+        "description": "Elegant silver ring with moonstone-inspired shine.",
+        "tags": [
+          "silver",
+          "ring",
+          "moonstone"
+        ]
+      },
+      "ru": {
+        "name": "Серебряное кольцо с лунным камнем",
+        "category": "Кольца",
+        "description": "Элегантное серебряное кольцо с сиянием лунного камня.",
+        "tags": [
+          "серебро",
+          "кольцо",
+          "лунный камень"
+        ]
+      },
+      "vi": {
+        "name": "Nhẫn bạc đá mặt trăng",
+        "category": "Nhẫn",
+        "description": "Nhẫn bạc thanh lịch với ánh sáng lấy cảm hứng từ đá mặt trăng.",
+        "tags": [
+          "bạc",
+          "nhẫn",
+          "đá mặt trăng"
+        ]
+      }
+    },
+    "status": "available"
+  },
+  {
+    "id": "necklace-001",
+    "name": "Golden Drop Necklace",
+    "category": "Necklaces",
+    "price": 129,
+    "currency": "EUR",
+    "image": "assets/products/necklace/placeholder-necklace.svg",
+    "images": [
+      "assets/products/necklace/placeholder-necklace.svg"
+    ],
+    "description": "Minimal golden necklace for everyday wear.",
+    "tags": [
+      "gold",
+      "necklace"
+    ],
+    "translations": {
+      "en": {
+        "name": "Golden Drop Necklace",
+        "category": "Necklaces",
+        "description": "Minimal golden necklace for everyday wear.",
+        "tags": [
+          "gold",
+          "necklace"
+        ]
+      },
+      "ru": {
+        "name": "Золотое колье-капля",
+        "category": "Колье",
+        "description": "Минималистичное золотое колье на каждый день.",
+        "tags": [
+          "золото",
+          "колье"
+        ]
+      },
+      "vi": {
+        "name": "Dây chuyền giọt vàng",
+        "category": "Dây chuyền",
+        "description": "Dây chuyền vàng tối giản phù hợp đeo hằng ngày.",
+        "tags": [
+          "vàng",
+          "dây chuyền"
+        ]
+      }
+    },
+    "status": "sold_out"
+  },
+  {
+    "id": "earrings-001",
+    "name": "Crystal Pearl Earrings",
+    "category": "Earrings",
+    "price": 59,
+    "currency": "EUR",
+    "image": "assets/products/earings/placeholder-earrings.svg",
+    "images": [
+      "assets/products/earings/placeholder-earrings.svg"
+    ],
+    "description": "Light earrings with pearl and crystal detail.",
+    "tags": [
+      "earrings",
+      "pearl",
+      "crystal"
+    ],
+    "translations": {
+      "en": {
+        "name": "Crystal Pearl Earrings",
+        "category": "Earrings",
+        "description": "Light earrings with pearl and crystal detail.",
+        "tags": [
+          "earrings",
+          "pearl",
+          "crystal"
+        ]
+      },
+      "ru": {
+        "name": "Серьги с кристаллами и жемчугом",
+        "category": "Серьги",
+        "description": "Лёгкие серьги с жемчугом и кристаллами.",
+        "tags": [
+          "серьги",
+          "жемчуг",
+          "кристалл"
+        ]
+      },
+      "vi": {
+        "name": "Khuyên tai ngọc trai pha lê",
+        "category": "Khuyên tai",
+        "description": "Khuyên tai nhẹ với chi tiết ngọc trai và pha lê.",
+        "tags": [
+          "khuyên tai",
+          "ngọc trai",
+          "pha lê"
+        ]
+      }
+    },
+    "status": "available"
+  }
+]

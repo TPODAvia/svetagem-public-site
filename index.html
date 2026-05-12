@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Svetagem jewelry catalog and request checklist." data-i18n-content="meta_description" />
+    <title>Svetagem</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home">Svetagem</a>
+      <nav aria-label="Main navigation">
+        <a href="#products" data-i18n="nav_products">Products</a>
+        <a href="#request" data-i18n="nav_request">Request</a>
+        <a href="#contact" data-i18n="nav_contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <label class="language-select-label">
+          <span data-i18n="language_label">Language</span>
+          <select data-language-select aria-label="Language">
+            <option value="en">English</option>
+            <option value="ru">Русский</option>
+            <option value="vi">Tiếng Việt</option>
+          </select>
+        </label>
+        <button class="cart-button" type="button" data-open-cart>
+          <span data-i18n="checklist">Checklist</span> <span data-cart-count>0</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div>
+          <p class="eyebrow" data-i18n="hero_eyebrow">Jewelry catalogue</p>
+          <h1 data-i18n="hero_title">Choose the products you like and send a request.</h1>
+          <p data-i18n="hero_text">Payments are not processed on this website. We receive your checklist and delivery destination by email, then contact you manually.</p>
+          <a class="primary-link" href="#products" data-i18n="browse_products">Browse products</a>
+        </div>
+      </section>
+
+      <section id="products" class="section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow" data-i18n="catalogue">Catalogue</p>
+            <h2 data-i18n="products">Products</h2>
+          </div>
+          <label class="search-box">
+            <span data-i18n="search">Search</span>
+            <input type="search" placeholder="Ring, necklace, earrings..." data-i18n-placeholder="search_placeholder" data-search />
+          </label>
+        </div>
+        <div class="filters" data-filters></div>
+        <div class="product-grid" data-products></div>
+      </section>
+
+      <section id="request" class="section request-section">
+        <div>
+          <p class="eyebrow" data-i18n="checklist">Checklist</p>
+          <h2 data-i18n="request_title">Send your request</h2>
+          <p data-i18n="request_text">Add products to the checklist, enter your delivery destination, and send it to us.</p>
+        </div>
+
+        <form class="request-form" data-request-form>
+          <label><span data-i18n="form_name">Name</span><input name="name" autocomplete="name" required /></label>
+          <label><span data-i18n="form_contact">Email or phone / Telegram</span><input name="contact" autocomplete="email" required /></label>
+          <label><span data-i18n="form_destination">Delivery destination</span><textarea name="destination" rows="4" placeholder="Country, city, address or pickup preference" data-i18n-placeholder="destination_placeholder" required></textarea></label>
+          <label><span data-i18n="form_note">Additional note</span><textarea name="note" rows="3" placeholder="Size, color, gift wrapping, etc." data-i18n-placeholder="note_placeholder"></textarea></label>
+          <input type="hidden" name="checklist" data-checklist-field />
+          <button class="primary-button" type="submit" data-i18n="send_request">Send request</button>
+          <p class="form-status" data-form-status></p>
+        </form>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <p class="eyebrow" data-i18n="nav_contact">Contact</p>
+        <h2 data-i18n="email">Email</h2>
+        <a href="mailto:vmd000200000088@gmail.com">vmd000200000088@gmail.com</a>
+      </section>
+    </main>
+
+    <aside class="cart-panel" aria-hidden="true" data-cart-panel>
+      <div class="cart-header">
+        <h2 data-i18n="your_checklist">Your checklist</h2>
+        <button type="button" data-close-cart aria-label="Close">×</button>
+      </div>
+      <div data-cart-items></div>
+      <a class="primary-link" href="#request" data-close-cart data-i18n="continue_to_request">Continue to request</a>
+    </aside>
+
+    <script type="module" src="assets/app.js"></script>
+  </body>
+</html>
